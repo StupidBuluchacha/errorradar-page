@@ -364,7 +364,7 @@
             <li>Closed-source MLLMs are most likely to misjudge VIS as REAS in error categorization task</li>
           </ul>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/gpt4o_bad_case_distribution.jpg" alt="SeePhys" width="45%" />
+            <img src="static/images/gpt4o_bad_case_distribution.jpg" alt="SeePhys" width="35%" />
           </h2>
           <div class="content has-text-justified">
             <strong>The error category distribution of misjudged VIS cases of CogVLM2-LLaMA3</strong>
@@ -373,7 +373,7 @@
             <li>Open-source MLLMs are more likely to misclassify VIS as CAL</li>
           </ul>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/llama.jpg" alt="SeePhys" width="45%" />
+            <img src="static/images/llama.jpg" alt="SeePhys" width="35%" />
           </h2>
           <div class="content has-text-justified">
             <strong>The error step distribution (in percentage) of error categories</strong>
@@ -402,6 +402,33 @@
         </div>
       </div>
       <!--/ experiment analysis -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="margin-bottom: 2vh;">
+      <!-- bad case analysis -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Visual Bad Cases</h2>
+          <div class="content has-text-justified">
+            <strong>Visual perception errors are critical in multimodal error detection tasks, as they impact the
+              accurate comprehension of
+              mathematical problems presented with both text and diagrams.the five primary categories of visual errors
+              observed in GPT-4o (the MLLM with best overall and VIS performance) include
+              distance perception, diagram perception, spatial perception, flip/fold perception,
+              and shape perception. These categories differ in their cognitive demands: distance perception focuses on
+              point
+              identification; diagram perception on quantitative estimation; spatial perception on geometric
+              visualization; flip/fold
+              perception on mental rotation; and shape perception on object classification.</strong>
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/gpt visual bad case category.png" alt="SeePhys" width="55%" />
+          </h2>
+        </div>
+      </div>
+      <!--/ bad case analysis -->
     </div>
   </section>
 
