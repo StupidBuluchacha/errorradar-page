@@ -297,7 +297,7 @@
 
   <section class="section">
     <div class="container" style="margin-bottom: 2vh;">
-      <!-- roadmap -->
+      <!-- dataset details -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Dataset Details</h2>
@@ -305,7 +305,7 @@
             Key statistics of dataset
           </div>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/statistics.png" alt="SeePhys" width="40%" />
+            <img src="static/images/statistics.png" alt="SeePhys" width="25%" />
           </h2>
           <div class="content has-text-justified">
             Roadmap of dataset collection, annotation, and consistent update
@@ -317,11 +317,61 @@
             Dataset distribution with respect to problem type and error category
           </div>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/dataset_roadmap.png" alt="SeePhys" width="55%" />
+            <img src="static/images/category_flow.png" alt="SeePhys" width="55%" />
           </h2>
         </div>
       </div>
-      <!--/ roadmap -->
+      <!--/ dataset details -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="margin-bottom: 2vh;">
+      <!-- experiment analysis -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Experimental Analysis</h2>
+          <div class="content has-text-justified">
+            Error category performance of top 10 MLLMs for F1, recall, and precision, respectively
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/model_performance_charts_layout_top10.png" alt="SeePhys" width="80%" />
+          </h2>
+          <div class="content has-text-justified">
+            The radar charts of error category performance for the top eight MLLMs (each dimension indicates an error
+            category)
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/radar_main.png" alt="SeePhys" width="80%" />
+          </h2>
+          <div class="content has-text-justified">
+            Error step performance of top 10 MLLMs
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/step_performance_chart_top10.png" alt="SeePhys" width="55%" />
+          </h2>
+          <div class="content has-text-justified">
+            The proportion of CAL predictions of respective closed-source and open-source MLLMs with top-5 CAL
+            recall
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/CAL_bias_bar.png" alt="SeePhys" width="80%" />
+          </h2>
+          <div class="content has-text-justified">
+            The error category distribution of misjudged VIS cases of GPT-4o
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/gpt4o_bad_case_distribution.jpg" alt="SeePhys" width="80%" />
+          </h2>
+          <div class="content has-text-justified">
+            The error category distribution of misjudged VIS cases of CogVLM2-LLaMA3
+          </div>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/llama.jpg" alt="SeePhys" width="80%" />
+          </h2>
+        </div>
+      </div>
+      <!--/ experiment analysis -->
     </div>
   </section>
 
