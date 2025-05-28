@@ -355,19 +355,63 @@
             recall
           </div>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/CAL_bias_bar.png" alt="SeePhys" width="80%" />
+            <img src="static/images/CAL_bias_bar.png" alt="SeePhys" width="55%" />
           </h2>
           <div class="content has-text-justified">
             The error category distribution of misjudged VIS cases of GPT-4o
           </div>
+          <ul>
+            <li>Closed-source MLLMs are most likely to misjudge VIS as REAS in error categorization task
+            </li>
+          </ul>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/gpt4o_bad_case_distribution.jpg" alt="SeePhys" width="80%" />
+            <img src="static/images/gpt4o_bad_case_distribution.jpg" alt="SeePhys" width="55%" />
           </h2>
           <div class="content has-text-justified">
             The error category distribution of misjudged VIS cases of CogVLM2-LLaMA3
           </div>
+          <ul>
+            <li>Open-source MLLMs are more likely to misclassify VIS as CAL
+            </li>
+          </ul>
           <h2 class="title is-2 mathvista">
-            <img src="static/images/llama.jpg" alt="SeePhys" width="80%" />
+            <img src="static/images/llama.jpg" alt="SeePhys" width="55%" />
+          </h2>
+          <div class="content has-text-justified">
+            The error step distribution (in percentage) of error categories
+          </div>
+          <ul>
+            <li>There is a close relationship between different error category and their distribution in the reasoning
+              steps
+            </li>
+          </ul>
+          <ul>
+            <li>VIS occurs in the earlier stages of problem-solving reasoning
+            </li>
+          </ul>
+          <ul>
+            <li>Other error categories are primarily in later stages of problem-solving reasoning
+            </li>
+          </ul>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/error step percentage.png" alt="SeePhys" width="55%" />
+          </h2>
+
+          <div class="content has-text-justified">
+            The accuracy of STEP and CATE of two representative MLLM series: LLaVA-NEXT and
+            InternVL2. We denote Tiny, Small, Middle, Large as the 2B, 8B, 26B, 76B for
+            InternVL2 and None, 7B, 13B, 72B for LLaVA-NEXT, respectively
+          </div>
+          <ul>
+            <li>The performance of MLLMs on STEP task increases with the scale of parameters
+            </li>
+          </ul>
+          <ul>
+            <li>CATE task is relatively more difficult to improve through scaling
+            </li>
+          </ul>
+          <h2 class="title is-2 mathvista">
+            <img src="static/images/scale_acc.png" alt="SeePhys" width="60%" />
           </h2>
         </div>
       </div>
